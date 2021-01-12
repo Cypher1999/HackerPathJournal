@@ -8,10 +8,10 @@ El mismo se dividirá en distintos campos tecnológicos donde se desarrollarán 
 * [Programación](Programacion/)
 * [Criptografía](Criptografia/) 
 * [Redes](Redes/)
-* [Sistemas Operativos]('Sistemas Operativos'/) 
+* [Sistemas Operativos](Sistemas_Operativos/) 
 * [Web](Web/) 
 * [Pentesting](Pentesting/) 
-* [Seguridad Informática]('Seguridad\ Informatica'/)
+* [Seguridad Informática](Seguridad_Informatica/)
 
 ## Objetivo:
 
