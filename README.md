@@ -5,13 +5,13 @@ Este repositorio recopila y lleva registro de mi aprendizaje como programador y 
 
 El mismo se dividirá en distintos campos tecnológicos donde desarrollaré nuevos conocimientos y habilidades:<br>
 
-* Programación
-* Criptografia 
-* Redes
-* Sistemas Operativos 
-* Web 
-* Pentesting 
-* Seguridad Informática
+* [Programación](Programacion/)
+* [Criptografía](Criptografia/) 
+* [Redes](Redes/)
+* [Sistemas Operativos](Sistemas\ Operativos/) 
+* [Web](Web/) 
+* [Pentesting](Pentesting/) 
+* [Seguridad Informática](Seguridad\ Informatica/)
 
 ## Objetivo:
 
