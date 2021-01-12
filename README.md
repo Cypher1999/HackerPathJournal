@@ -3,15 +3,15 @@
 
 Este repositorio recopila y lleva registro de mi aprendizaje como programador y entusiasta al mundo de las TI.
 
-El mismo se dividirá en distintos campos tecnológicos donde desarrollaré nuevos conocimientos y habilidades:<br>
+El mismo se dividirá en distintos campos tecnológicos donde se desarrollarán nuevos conocimientos y habilidades:<br>
 
 * [Programación](Programacion/)
 * [Criptografía](Criptografia/) 
 * [Redes](Redes/)
-* [Sistemas Operativos](Sistemas\ Operativos/) 
+* [Sistemas Operativos]('Sistemas Operativos'/) 
 * [Web](Web/) 
 * [Pentesting](Pentesting/) 
-* [Seguridad Informática](Seguridad\ Informatica/)
+* [Seguridad Informática]('Seguridad\ Informatica'/)
 
 ## Objetivo:
 
@@ -34,12 +34,24 @@ Durante un período de los próximos 2 años.
 Este repositorio funcionará a forma de diario de desarrollo, de estudio y aprendizaje, un diario de facil acceso y edición,
 que permita almacenar información cuando sea necesario sin recurrir a las limitantes de una libreta física.
 
+La creación de distintos directorios para las ramas de las tecnologías informáticas a estudiar permiten un desarrollo independiente
+del estudio y una facil observación del avance en cada una de estas ramas.
+
+Cada rama contará con lo siguiente:
+
+* README: 
+> Una introducción a la rama, una presentación de la misma y de los conocimientos previos a este proyecto, los objetivos a lograr, comentarios, links.
+
+* PDF: 
+> Libros y documentos relacionados a la rama, que hayan sido utilizados, consultados o que puedan ser de interes. 
+
+* DOCUMENTACIÓN:
+> Toda documentación desarrollada y planteada por mi persona, todo material de mi autoría, textos conceptuales, notas, etc.
 
 ## Quién Soy?
 
 Soy un estudiante de ingeniería informática y actualmente autodidacta en el desarrollo de distintas habilidades de TI, actualmente
-sin ninguna experiencia laboral con respecto a dichos campos. Soy un entusiasta a Hacker, tomando en cuenta la definición del mismo
-como: 
+sin ninguna experiencia laboral con respecto a dichos campos. Soy un entusiasta a Hacker, tomando en cuenta la definición del mismo como: 
 
 	"Hacker es una voz del inglés para referirse a una persona o a una comunidad que posee conocimientos en el área de informática y se dedica a acceder 
 	a sistemas informáticos para realizar modificaciones en el mismo." 
