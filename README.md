@@ -12,7 +12,7 @@ El mismo se dividirá en distintos campos tecnológicos donde se desarrollarán 
 * [Web](Web/) 
 * [Pentesting](Pentesting/) 
 * [Seguridad Informática](Seguridad_Informatica/)
-
+* [Bases de datos](DB/)
 ## Objetivo:
 
 **Qué?**
