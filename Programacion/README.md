@@ -25,6 +25,7 @@ sin embargo no son conocimientos extensos.
 
 Lista de los lenguajes usados en la práctica del repositorio, no cubre todos los lenguajes que he llegado a usar.
 
+* Java
 * Python
 * C
 * C++
@@ -33,22 +34,26 @@ Lista de los lenguajes usados en la práctica del repositorio, no cubre todos lo
 
 ### Básico:
 
-* [ ] Estructuras de Datos: 
+* [ ] [Estructuras de Datos](Estructuras_de_datos/) 
 	* [ ] Tablas de Hash	
 	* [ ] Arboles/Grafos
 	* [ ] Listas enlazadas	
 	* [ ] Matrices
 	* [ ] Vectores/Arrays	
-* [ ] Apuntadores  
-* [ ] Estructuras en C 
-* [ ] POO: 
+	* [ ] Apuntadores 
+	* [ ] Estructuras en C
+* [ ] [Paradigma Orientado a Objetos](POO/) 
 	* [ ] Herencia
 	* [ ] Tipos de datos 
-	* [ ] Clases
-* [ ] Librerías
-* [ ] Tipos de datos
-* [ ] Procesamiento
+	* [ ] Clases 
+* [ ] [Primeros Pasos](Primeros_pasos/) 
+	* [ ] Ciclos 
+	* [ ] Condicionales 
+	* [ ] Tipos de datos 
+	* [ ] Hola Mundo
+	* [ ] Qué Lenguaje Elegir?
+* [ ] [Procesamiento](Procesamiento/)
 	* [ ] El Compilador	
-	* [ ] Lenguaje de Máquina
+	* [ ] Lenguajes de Programación
 	* [ ] Memorias
 	* [ ] El Procesador	
