@@ -13,7 +13,7 @@ obtener un resultado, tal como los pasos para armar un mueble o una receta de co
 Los programadores son los encargados de elaborar y escribir dichos algoritmos, son quienes construyen los programas que el procesador debe ejecutar. Entonces sabemos
 que el software es elaborado por los programadores y ejecutados por el procesador... Pero cómo sucede esto?
 
-## Indice 
+## Índice 
 <a name=Indice></a>
 * [El procesador](#El_Procesador)
 * [Memorias](#Memorias) 
@@ -33,7 +33,9 @@ El procesador obtiene los datos (tareas, ordenes, instrucciones) en forma de có
 digital como pulsos electricos donde, por ejemplo:
 
 Un pulso eléctrico representa un:
+
 0, si -> voltaje bajo: 0.0V - 0.8V
+
 1, si -> voltaje alto: 2V - 5V 
 
 El procesador, a nivel de lógica booleana, está compuesto por circuitos de [compuertas lógicas](http://service.udes.edu.co/modulos/documentos/pedropatino/compuertas.pdf), las cuales según qué par de datos binarios se reciban, se obtiene una respueta. Este mismo concepto es el que se utiliza para los circuitos electrónicos del computador y el procesador, de forma que las compuertas son representadas por millores de transistores microscópicos y los numeros binarios por pulsos eléctricos.
@@ -54,9 +56,11 @@ con eficiencia distintas tareas y procesos que conllevan el buen funcionamiento 
 Pero en una vista general tenemos dos módulos esenciales, la Unidad de Control y la Unidad Aritmético-Lógica:
 
 * Unidad de Control: 
+
 Como lo indica su nombre, esta es la parte del procesador que se encarga de manejar y administrar todos los procesos en ejecución y operaciones del sistema, número de proceso, proceso siguiente, dirección en memoria de cada instrucción, control de tiempos de ejecución, cancelar un proceso, etc.
 
 * Unidad Aritmético-Lógica:
+
 En esta unidad se procesan todas las operaciones matemáticas, como sumas, restas, etc,  y lógicas, como comparaciones, requeridas en función al proceso que se esté ejecutando en el momento.
 
 ![Imagen no disponible](img/DiagramCPU.jpg) 
@@ -71,6 +75,7 @@ De esta forma tenemos una visión minimalista de qué es un procesador y como op
 
 Sin Embargo, aun con la destreza del procesador por ejecutar ordenes y devolver resultados, dichas ordenes y resultados deben almacenarse en un sitio para que puedan ser accesibles, se necesita de una memoria.
 
+[Índice](#Indice)
 
 <a name=Memorias ></a>
 ## Memorias
