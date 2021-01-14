@@ -63,11 +63,11 @@ En esta unidad se procesan todas las operaciones matemáticas, como sumas, resta
 
 De esta forma tenemos una visión minimalista de qué es un procesador y como opera:
 
-1 - Recibe instrucciones y datos que deben ser procesados.
-2 - Analiza los procesos que deben ejecutarse para cumplir la tarea.
-3 - Dichos procesos se ejecutan en orden y se realizan las operaciones necesarias.
-4 - Una vez procesadas las entradas se obtiene una respuesta o salida. 
-5 - Finaliza el proceso.
+* 1 - Recibe instrucciones y datos que deben ser procesados.
+* 2 - Analiza los procesos que deben ejecutarse para cumplir la tarea.
+* 3 - Dichos procesos se ejecutan en orden y se realizan las operaciones necesarias.
+* 4 - Una vez procesadas las entradas se obtiene una respuesta o salida. 
+* 5 - Finaliza el proceso.
 
 Sin Embargo, aun con la destreza del procesador por ejecutar ordenes y devolver resultados, dichas ordenes y resultados deben almacenarse en un sitio para que puedan ser accesibles, se necesita de una memoria.
 
