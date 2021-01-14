@@ -30,7 +30,7 @@ Lista de los lenguajes usados en la práctica del repositorio, no cubre todos lo
 * C
 * C++
 
-## Estructura:
+## Ruta de Aprendizaje: 
 
 ### Básico:
 
@@ -53,7 +53,8 @@ Lista de los lenguajes usados en la práctica del repositorio, no cubre todos lo
 	* [ ] Hola Mundo
 	* [ ] Qué Lenguaje Elegir?
 * [ ] [Procesamiento](Procesamiento/)
-	* [ ] El Compilador	
+	* [ ] Compilar e interpretar	
 	* [ ] Lenguajes de Programación
+	* [ ] Algoritmos
 	* [ ] Memorias
-	* [ ] El Procesador	
+	* [x] El Procesador	

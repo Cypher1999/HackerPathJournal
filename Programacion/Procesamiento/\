@@ -1,0 +1,41 @@
+# El procesamiento
+## Qué es un Programa y cómo se ejecuta?
+
+Todos hemos manejado un programa de computadora, hay una enorme variedad de ellos, para distintos fines, distintas areas de trabajo, distintos propósitos.
+Pero muchos no saben como estos son creados, lo que es realmente el software y como le da vida a nuestra computadora, puede que si eres entusiasta a la
+programación ya sepas unas cuantas cosas, quizá mas que el resto, pero siempre hay agujeros, siempre los habrá, inlcuso ahora cuando escribo soy solo 
+otra persona con mas interrogantes que respuestas.
+
+En aspectos generales un programa de computador son solo una serie de instrucciones binarias que el procesador puede intender y ejecutar en el orden en que le
+son dadas, este conjunto de ordenes se conoce como algoritmo, el cual podemos definir como una serie de pasos o instrucciones que deben seguir para 
+obtener un resultado, tal como los pasos para armar un mueble o una receta de cocina.
+
+Los programadores son los encargados de elaborar y escribir dichos algoritmos, son quienes construyen los programas que el procesador debe ejecutar. Entonces sabemos
+que el software es elaborado por los programadores y ejecutados por el procesador... Pero cómo sucede esto?
+
+## Indice 
+
+* El procesador
+* Memorias 
+* Algoritmos 
+* Lenguajes de Programación
+* Compilar e interpretar
+
+## El Procesador 
+
+El procesador o CPU ( **C**entral **P**rocessing **U**nit) es la pieza central de un computador, es el cerebro que controla 
+el hardware y software ( junto a otros controladores de apoyo ), es quien recibe los datos y los procesa de forma matemática y lógica.
+
+![imagen no disponible](img/CPU2.jpg)
+
+El procesador obtiene los datos (tareas, ordenes, instrucciones) en forma de código binario ( 1s y 0s ), y son transmitidos y leídos de manera
+digital como pulsos electricos donde, por ejemplo:
+
+Un pulso eléctrico representa un:
+0, si -> voltaje bajo: 0.0V - 0.8V
+1, si -> voltaje alto: 2V - 5V 
+
+El procesador, a nivel lógico, está compuesto por circuitos de compuertas lógicas, las cuales según qué par de datos binarios
+se reciban, se obtiene una respueta. Este mismo concepto es el que se utiliza para los circuitos electrónicos de  
+
+
