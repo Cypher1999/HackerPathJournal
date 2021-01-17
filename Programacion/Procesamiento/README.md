@@ -102,7 +102,7 @@ Hay dos tipos de memorias en un computador, la memoria principal y memoria secun
 * Memoria Principal: 
 
 Es aquella memoria volatil donde se cargan los programas y los procesos que se encuentran en ejecución y se caracterizan por ser de rápido acceso pero no 
-almacenar la información permanentemente ( es eliminada al apagar la computadora ), y la más conocida de este grupo es la memoria [RAM](https://es.wikipedia.org/wiki/Memoria_de_acceso_aleatorio). En esta categoría se les puede simar los [registros del CPU]() y la [memoria cache]().
+almacenar la información permanentemente ( es eliminada al apagar la computadora ), y la más conocida de este grupo es la memoria [RAM](https://es.wikipedia.org/wiki/Memoria_de_acceso_aleatorio).
 
 Esta es tu memoria de corto plazo, en ella está la información que necesitas para lo que sea que estes haciendo en ese preciso momento, pero mucha información de la que está ahí será olvidado
 cuando te duermas, o incluso siquiera unas horas despues de haberla utilizado. 
