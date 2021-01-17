@@ -1,4 +1,5 @@
 # El procesamiento
+
 ## Qué es un Programa y cómo se ejecuta?
 
 Todos hemos manejado un programa de computadora, hay una enorme variedad de ellos, para distintos fines, distintas areas de trabajo, distintos propósitos.
@@ -17,7 +18,7 @@ que el software es elaborado por los programadores y ejecutados por el procesado
 <a name=Indice></a>
 * [El procesador](#El_Procesador)
 * [Memorias](#Memorias) 
-* [Algoritmos]() 
+* [Algoritmos](#Algortimos) 
 * [Lenguajes de Programación]()
 * [Compilar e interpretar]()
 
@@ -77,6 +78,7 @@ Sin Embargo, aun con la destreza del procesador por ejecutar ordenes y devolver 
 
 [Índice](#Indice)
 
+
 <a name=Memorias ></a>
 ## Memorias
 
@@ -98,6 +100,7 @@ De esta misma forma, el procesador necesita una memoria donde poder almacenar y 
 consultarlos, modificarlos o reutilizarlos, crear nueva información.
 
 Hay dos tipos de memorias en un computador, la memoria principal y memoria secundaria, las cueales sirven a distintos propósitos:
+
 
 * Memoria Principal: 
 
@@ -128,6 +131,7 @@ En pocas palabras un ejemplo de una caracteristica crucial en una computadora, e
 
 Otras memorias mencionables son los [registros del CPU](https://www.profesionalreview.com/2019/11/18/registros-del-procesador/), la [memoria cache](https://hardzone.es/tutoriales/rendimiento/memoria-cache-procesador-como-funciona/) y la [ROM](https://es.wikipedia.org/wiki/Memoria_de_solo_lectura).
 
+
 ### Memoria Virtual: 
 
 Aquí entra otro concepto muy importante, si los programas deben cargarse en memoria principal para ser ejecutados, cómo es que un programa que ocupa 30GB de espacio puede ser cargo en 4GB de 
@@ -143,3 +147,37 @@ Normalmente para lograr esto con éxito, se realiza un proceso de traducción en
 
 [Índice](#Indice)
 
+
+<a name=Algoritmos></a>
+## Algoritmos
+
+Sabemos dónde y cómo se procesa un programa, ahora toca entender cómo se construye un programa. A menudo la tecnología puede verse como un campo amenazador por su complejidad, sin embargo 
+quien se atreve a mirar puede encontrar que las bases y el inicio (como en muchos campos) son algo sencillo, ya sabemos que un programa son una serie de instrucciones que el procesador lee 
+y ejecuta, esta serie o conjunto de instrucciones es lo que llamamos un algoritmo.
+
+Un algoritmo, en términos de matemática lógica y ciencias de la computación, es una serie de pasos u operaciones lógicas que sirven para resolver un problema y llegar a una solución única. 
+Aunque este término nace en el Álgebra y es usado principalmente en matemáticas o informática, podemos entender el concepto de algortimo como instrucciones a seguir para llegar a un resultado 
+concreto, como un manual de instrucciones o una receta o un método para resolver un problema matemático.
+
+![](img/algoritmo3.jpg)
+
+En la informática entonces, programar se trata de desglozar algo que queremos lograr en pasos e instrucciones, la complejidad nace en que nuestros algoritmos no solo deben ser entendibles 
+para otras personas, sino tambien para el procesador, pues es este último quien lo llevará a cabo, con la práctica notarás que aunque un algoritmo pueda ser ejecutado exitósamente no implica 
+que funcione como tú hayas querido que funcionara.
+
+
+### Cómo se escribe un algoritmo?
+
+A la hora de programar, se utilizan los llamados **Lenguajes de programación**, existen una gran cantidad de lenguajes para múltiples propósitos y orientados a distintos [paradigmas](https://profile.es/blog/que-son-los-paradigmas-de-programacion/), pero todos estos lenguajes están unidos por la lógica de programación, si dominas la lógica puedes facilmente adaptarte a otros lenguajes 
+concentrando tu esfuerzo en aprender la nueva sintaxis del lenguaje. Pero para iniciar una buena forma de observar y entender la lógica de la programación básica es el uso del [pseudocódigo](https://youtu.be/KcSD3r16Pl0), el cual cumple con una sintaxis simple con Etiquetas que indican las acciones básicas de la programación como la declaración de variables, la lectura de datos de entrada, la impresión en pantalla, ciclos y condicionales, y el fin del programa. 
+
+![](img/pseudocódigo.jpg)
+
+
+Otra buena opción para entender la lógica de programación es bajo el uso de [Diagramas de flujo](https://www.lucidchart.com/pages/es/que-es-un-diagrama-de-flujo), el cual es una representación gráfica de los pasos determinados de un algoritmo, como se 
+desarrolla y el flujo del mismo desde su inicio hasta su final con el uso de pseudocódigo y símbolos.
+ 
+![](img/Diagrama-de-Flujo-1.png)
+
+
+[Índice](#Indice)
