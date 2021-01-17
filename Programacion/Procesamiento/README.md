@@ -18,7 +18,7 @@ que el software es elaborado por los programadores y ejecutados por el procesado
 <a name=Indice></a>
 * [El procesador](#El_Procesador)
 * [Memorias](#Memorias) 
-* [Algoritmos](#Algortimos) 
+* [Algoritmos](#Algoritmos) 
 * [Lenguajes de Programación]()
 * [Compilar e interpretar]()
 
