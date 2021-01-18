@@ -14,12 +14,13 @@ obtener un resultado, tal como los pasos para armar un mueble o una receta de co
 Los programadores son los encargados de elaborar y escribir dichos algoritmos, son quienes construyen los programas que el procesador debe ejecutar. Entonces sabemos
 que el software es elaborado por los programadores y ejecutados por el procesador... Pero cómo sucede esto?
 
-## Índice 
+
 <a name=Indice></a>
+## Índice 
 * [El procesador](#El_Procesador)
 * [Memorias](#Memorias) 
 * [Algoritmos](#Algoritmos) 
-* [Lenguajes de Programación]()
+* [Lenguajes de Programación](#Lenguajes_de_programacion)
 * [Compilar e interpretar]()
 
 <a name=El_Procesador></a>
@@ -168,7 +169,7 @@ que funcione como tú hayas querido que funcionara.
 
 ### Cómo se escribe un algoritmo?
 
-A la hora de programar, se utilizan los llamados **Lenguajes de programación**, existen una gran cantidad de lenguajes para múltiples propósitos y orientados a distintos [paradigmas](https://profile.es/blog/que-son-los-paradigmas-de-programacion/), pero todos estos lenguajes están unidos por la lógica de programación, si dominas la lógica puedes facilmente adaptarte a otros lenguajes 
+A la hora de programar, se utilizan los llamados [Lenguajes de programación](#Lenguajes_de_programacion), existen una gran cantidad de lenguajes para múltiples propósitos y orientados a distintos [paradigmas](https://profile.es/blog/que-son-los-paradigmas-de-programacion/), pero todos estos lenguajes están unidos por la lógica de programación, si dominas la lógica puedes facilmente adaptarte a otros lenguajes 
 concentrando tu esfuerzo en aprender la nueva sintaxis del lenguaje. Pero para iniciar una buena forma de observar y entender la lógica de la programación básica es el uso del [pseudocódigo](https://youtu.be/KcSD3r16Pl0), el cual cumple con una sintaxis simple con Etiquetas que indican las acciones básicas de la programación como la declaración de variables, la lectura de datos de entrada, la impresión en pantalla, ciclos y condicionales, y el fin del programa. 
 
 ![](img/pseudocódigo.jpg)
@@ -179,5 +180,49 @@ desarrolla y el flujo del mismo desde su inicio hasta su final con el uso de pse
  
 ![](img/Diagrama-de-Flujo-1.png)
 
+
+[Índice](#Indice)
+
+
+<a name=Lenguajes_de_programacion></a>
+## Lenguajes de Programación
+
+Como ya pudimos observar, un algoritmo es facilmente entendible y llevado a cabo por un ser humano, pero una computadora no comprende el lenguaje humano, además el procesador no tiene la 
+capacidad del sentido común, se le debe indicar específicamente qué acciones debe tomar cada momento hasta el final de la ejecución de nuestro programa. Recordemos que el programa no son es 
+más que un algoritmo escrito con instrucciones para el [procesador](#El_Procesador), por lo que programar es aprender a dar ordenes al procesador, inicialmente esto se hizo con: 
+
+* **Lenguajes de bajo nivel:**
+
+Los lenguajes de bajo nivel son aquellos lenguajes que interactuan directamente con el hardware de la máquina, carcaterística que añade complejidad a la programación pues esta cambia para las
+distintas estructuras de hardware existentes. Además los lenguajes de bajo nivel se caracterizan por poseer una considerable complejidad sintáctica y el riesgo de dañar o afectar el rendimiento 
+del hardware. Entre ellos tenemos: 
+	
+	* Lenguaje de máquina:
+<br>Como ya mencionamos el computador (incluso hoy en día) solo es capaz de entender código binario, en este nivel tan básico y complejo de la programación las diferentes instrucciones del 
+procesador tienen una identficicación binaria específica, y dichas instrucciones pueden ser dadas por el programador en forma de códifo hexadecimal que es directamente leído por la computadora 
+en binario. Cabe destacar que este método de programación es complejo y no es usado hoy en día. 
+ 
+	* Lenguaje Ensamblador: 
+<br>Es el primer lenguaje que busca asemejar la programación al lenguaje hablado, el lenguaje ensamblador usa una serie de comandos que representan las mismas instrucciones del hardware, 
+lo cual facilita la programación y el entendimiento, aunque aún constaba de un considerable nivel de complejidad. El lenguaje requería una traducción de los comandos dados a instrucciones
+en el lenguaje de máquina, para ello se debe utilizar un programa llamado ensamblador, y es aspectos generales su función es parecida a la de los compiladores hoy en día, traducir el
+código a un lenguaje que la máquina pueda entender.
+
+![](img/Lenguaje_Maquina.png)
+
+* **Lenguajes de alto nivel:**
+
+Los lenguajes de alto nivel son los mayormente usados hoy en día, poseen como cualidad principal que su sintaxis es mucho mas comprensible y parecida al lenguaje hablado (al ingles 
+principalmente) y estos son utilizados para el desarrollo de programas, aplicaciones y nuevas tecnologías con un mayor nivel de abstracción, esto se traduce en que estos lenguajes no 
+se involucran directamente con el hardware y su uso no cambia según la arquitectura en la que esté siendo desarrollado el software. El desarrollo de software con estos lenguajes requiere de 
+un compilador o interprete (según sea el caso del lenguaje) que tradusca el código escrito en binarios ejecutables por la computadora.  
+
+![](img/Lenguajes.jpg)
+
+<br>Un caso particular es el de los llamados lenguajes de medio nivel, que son aquellos que aun teniendo las cualidades de los lenguajes de alto nivel son capaces de interactuar directamente 
+con el hardware del computador, un ejemplo destacable de esto es el lenguaje de programación **C**, el cual es predecesor de varios lenguajes y es el lenguaje usado para el desarrollo del 
+[kernel](https://es.wikipedia.org/wiki/N%C3%BAcleo_(inform%C3%A1tica)) de  [Linux](https://es.wikipedia.org/wiki/GNU/Linux).
+
+![](img/Linux-C.png) 
 
 [Índice](#Indice)
