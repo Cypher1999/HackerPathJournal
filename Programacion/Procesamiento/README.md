@@ -197,12 +197,12 @@ Los lenguajes de bajo nivel son aquellos lenguajes que interactuan directamente 
 distintas estructuras de hardware existentes. Además los lenguajes de bajo nivel se caracterizan por poseer una considerable complejidad sintáctica y el riesgo de dañar o afectar el rendimiento 
 del hardware. Entre ellos tenemos: 
 	
-	* **Lenguaje de máquina:**
+ -> Lenguaje de máquina:
 <br>Como ya mencionamos el computador (incluso hoy en día) solo es capaz de entender código binario, en este nivel tan básico y complejo de la programación las diferentes instrucciones del 
 procesador tienen una identficicación binaria específica, y dichas instrucciones pueden ser dadas por el programador en forma de códifo hexadecimal que es directamente leído por la computadora 
 en binario. Cabe destacar que este método de programación es complejo y no es usado hoy en día. 
  
-	* **Lenguaje Ensamblador:** 
+ -> Lenguaje Ensamblador:
 <br>Es el primer lenguaje que busca asemejar la programación al lenguaje hablado, el lenguaje ensamblador usa una serie de comandos que representan las mismas instrucciones del hardware, 
 lo cual facilita la programación y el entendimiento, aunque aún constaba de un considerable nivel de complejidad. El lenguaje requería una traducción de los comandos dados a instrucciones
 en el lenguaje de máquina, para ello se debe utilizar un programa llamado ensamblador, y es aspectos generales su función es parecida a la de los compiladores hoy en día, traducir el
