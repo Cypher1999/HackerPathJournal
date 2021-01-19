@@ -22,6 +22,7 @@ que el software es elaborado por los programadores y ejecutados por el procesado
 * [Algoritmos](#Algoritmos) 
 * [Lenguajes de Programación](#Lenguajes_de_programacion)
 * [Compilar e interpretar](#Compilar_e_interpretar)
+* [Conclusión del Módulo](#Conclusion)
 
 <a name=El_Procesador></a>
 ## El Procesador
@@ -283,7 +284,7 @@ la búsqueda ordenada de errores en el código y prepararlo para generar el cód
  En esta fáse se utiliza el arbol generado para poder detectar violaciones de semántica del lenguaje, como las declaraciones y los tipos de datos en relación.
 
 
-**Etapa de Síntesis**
+<br>**Etapa de Síntesis**
 
 * **Generación del código:**
  En esta fase el código fuente ya está listo para convertirse en un programa de computador, durante esta fase el código fuente analizado es convertido en 
@@ -313,9 +314,36 @@ final, donde se enlaza el código de máquina principal con el de las funciones 
 ![](img/Compilacion.png)
 
 
+[Índice](#Indice)
+
+
+<a name=Conclusion></a>
+## Conclusión del Módulo
+
+Una vez observado y entendido todos los tópicos de este modulo se puede tener una idea teórica básica y general de como se desarrolla y ejectuta un software, 
+de como nuestra computadora puede llegar a interactuar con nuestros (u otros) programas. Hagamos un resumen del proceso, desde la creación a la ejecución de 
+un programa. 
+
+**Desarrollo**
+
+* 1 - Un programador quiere desarrollar un programa de computadora.
+* 2 - Una vez tiene la idea desarrolla un algoritmo con un lenguaje de programación.
+* 3 - Terminado el algoritmo se procede a compilar el programa objeto.
+
+**Ejecución**
+
+* 1 - Indicamos al computador que ejecute el programa objeto.
+* 2 - El procesador procede a buscar el programa en el disco duro.
+* 3 - El procesador carga las partes del programa en la memoria RAM.
+* 4 - El procesador ejecuta las instrucciones binarias del programa.
+* 5 - Finaliza el programa y se libera el espacio en memoria principal.
+
+![](img/ejecucionprogramaenc.jpg)
 
 [Índice](#Indice)
 
+
+[Siguiente Módulo](../Primeros_pasos)
 
 
 

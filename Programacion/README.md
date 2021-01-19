@@ -52,7 +52,7 @@ Lista de los lenguajes usados en la práctica del repositorio, no cubre todos lo
 	* [ ] Tipos de datos 
 	* [ ] Hola Mundo
 	* [ ] Qué Lenguaje Elegir?
-* [ ] [Procesamiento](Procesamiento/)
+* [x] [Procesamiento](Procesamiento/)
 	* [x] Compilar e interpretar	
 	* [x] Lenguajes de Programación
 	* [x] Algoritmos
