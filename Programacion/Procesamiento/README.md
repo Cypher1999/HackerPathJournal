@@ -21,7 +21,7 @@ que el software es elaborado por los programadores y ejecutados por el procesado
 * [Memorias](#Memorias) 
 * [Algoritmos](#Algoritmos) 
 * [Lenguajes de Programación](#Lenguajes_de_programacion)
-* [Compilar e interpretar]()
+* [Compilar e interpretar](#Compilar_e_interpretar)
 
 <a name=El_Procesador></a>
 ## El Procesador
@@ -226,3 +226,96 @@ con el hardware del computador, un ejemplo destacable de esto es el lenguaje de 
 ![](img/Linux-C.png) 
 
 [Índice](#Indice)
+
+
+<a name=Compilar_e_interpretar></a>
+## Compilar e Interpretar 
+
+Una vez hemos escrito nuestro algoritmo con nuestro lenguaje de alto nivel preferido, debemos convertir ese código a instrucciones binarias ejecutables por el procesador, un proceso parecido 
+al del ensamblador, pero para este punto las sintaxis de los lenguajes de programación son tan distintas que se necesitan programas más complejos para realizar la tarea, de los cuales se 
+tienen los compiladores y los intérpretes.
+
+Ambos programas tienen la misma función, traducir el lenguaje de programación en lenguaje de máquina, sin embargo sus métodos son distintos y por ende, hay ocasiones en que uno es más 
+beneficioso que el otro o viceversa. La diferencia entre ambos es que el compilador transforma todo el algoritmo en un archivo binario entendible por el procesador y el intéprete no crea 
+ningún archivo ejecutable, sino que por el contrario el intérprete va ejecutando el programa en tiempo real a medida que este es analizado y traducido.
+
+Por poner un ejemplo: 
+
+* Imagina que hay un documento cuyo contenido está en un lenguaje que no conoces y no puedes comprenderlo, por lo que le pides a un traductor que te entregue el mismo texto pero en 
+tu lengua, por lo que ahora tienes un nuevo documento que sí es entendible por ti. Así funciona el compilador.
+
+* Ahora, imagina que estás presente en una charla sobre marketing, uno de los invitados a dar uno de los temas de la conferencia resulta ser un alemán que no maneja bien el español, por lo 
+que es acompañado por un intérprete, a medida que el invitado alemán da la charla el intéprete traduce al público las oraciones en tiempo real desde el inicio hasta el final de la charla. 
+De la misma forma trabaja un intérprete de código.
+
+![](img/Compilador.jpg)
+
+Aunque los procesos pueden variar de lenguaje a lenguaje las etapas de la traducción del código fuente a código objeto (máquina) suelen ser las mismas, tanto 
+para compiladores e intérpretes se da la etapa de añálisis del codigo fuente, y no es hasta luego en que se diferencian ambos métodos.
+
+### Etapas de la traducción
+
+Para esta explicación usaremos el termino **Traductor** para referirnos a programas compiladores o intérpretes por igual en las etapas compartidas de ambas 
+estructuras.
+
+**Preprocesamiento** 
+
+Antes de iniciar con la traducción existe un término lamado "preprocesamiento" en el cual el traductor analiza el código en busca de directivas que afectan 
+la manera en que dicho código será traducido. En este proceso el código fuente se ve modificado y reacomodado según las indicaciones de las directivas 
+(reconocibles en C por comenzar con #) para generar un código fuente más cómodo de procesar al momento de la compilación.
+
+
+**Etapa de Análisis**
+
+* **Análisis léxico:**
+ En esta etapa eli traductor reconoce las cadenas de caracteres del código fuente y las convierte en tokens (componentes léxicos) que permitirán un 
+análisis detallado del codigo fuente en la etapa del análisis sintáctico.
+
+![](img/Analisis-lexico.png)
+
+* **Análisis sintáctico:**
+ En esta etapa el traductor procesa el conjunto de tokens generado en el análisis léxico y los desgloza en un lenguaje intermedio que permitirá 
+la búsqueda ordenada de errores en el código y prepararlo para generar el código binario. Este paso suele ser representado en forma de [arbol](https://es.wikipedia.org/wiki/%C3%81rbol_de_sintaxis_abstracta#Aplicaci%C3%B3n_en_compiladores).
+
+![](img/Analizadorsintactico.jpg)
+
+* **Análisis semántico:**
+ En esta fáse se utiliza el arbol generado para poder detectar violaciones de semántica del lenguaje, como las declaraciones y los tipos de datos en relación.
+
+
+**Etapa de Síntesis**
+
+* **Generación del código:**
+ En esta fase el código fuente ya está listo para convertirse en un programa de computador, durante esta fase el código fuente analizado es convertido en 
+código intermédio (parecido al código ensamblador) y posteriormente este código es traducido finalmente al código objeto (código máquina), además es en esta 
+fase donde se lleva a cabo la [optimización del código](http://informatica.blogs.uoc.edu/2016/05/02/optimizacion-de-codigo-un-codigo-mas-eficiente/).
+
+Es durante esta fase que la naturaleza del compilador y el intérprete se diferencian:
+
+En el compilador se transforma el código intermedio en código objeto, en este proceso se genera un nuevo archivo compuesto por este código objeto, dicho 
+archivo da la facilidad de poder ejecutar el programa de forma rápida y siempre que sea requerido, solo necesita ser compilado una vez para poder usarse 
+las veces que se necesite. Una limitante es que el codigo objeto compilado en un sistema operativo(Windows) no suele servir para otros sistemas (MacOS), 
+por lo que deben crearse distintas versiones de programas en caso de ser multiplataforma.
+
+En los interpretes la traducción y la ejecución suceden de manera simultanea. No se genera un archivo ejecutable, sino que se requiere del código fuente 
+para poder ejecutar el programa, este método, aunque más lento en ejecución que los compilados, es útil para otra clase de entornos como lo es la web. Además
+del uso de máquinas virtuales por parte de algunos lenguajes para la transformación del código intermedio a objeto permiten una mayor abstracción de parte 
+del software con respecto al hardware. 
+
+![](img/Comp-Inter.jpg)
+
+**Enlace**
+
+ Cuando se desarolla un proyecto no se suele manejar todo en un solo archivo, uno suele trabajar con distintos archivos y librerías personales. El traductor es 
+capaz de reconocer y ubicar las librerías standard, pero se deben indicar la ruta de las librerías propias para que puedan ser anexadas, y es en esta etapa 
+final, donde se enlaza el código de máquina principal con el de las funciones utilizadas y formar un único código ejecutable.
+
+![](img/Compilacion.png)
+
+
+
+[Índice](#Indice)
+
+
+
+
