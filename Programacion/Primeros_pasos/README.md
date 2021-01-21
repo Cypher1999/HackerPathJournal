@@ -10,7 +10,7 @@ que al aprenderla te facilita el aprendizaje de cualquier otro lenguaje o nuevas
 ## Índice 
 
 * [Qué lenguaje elegir?](#Que_lenguaje_elegir)
-* [Hola Mundo]()
+* [Hola Mundo](#Hola_Mundo)
 * [Tipos de datos]()
 * [Condicionales]()
 * [Ciclos]()
@@ -29,7 +29,7 @@ Cabe resaltar que no son casos exclusivos, cada lenguaje puede ser útil en dist
 ![](img/ProgramLogic.jpg)
 
 
-A la hora de programar por primera vez muchos pueden llegar a optar por [python]() por ser un lenguaje con una sintaxis sencilla y de muchas funcionalidades, sin embargo creo que 
+A la hora de programar por primera vez muchos pueden llegar a optar por python por ser un lenguaje con una sintaxis sencilla y de muchas funcionalidades, sin embargo creo que 
 para empezar es mejor el uso de lenguajes como C o C++, no solo por la enorme cantidad de documentación e información gratuita (que es igual con python) sino que en estos lenguajes aprendes más 
 sobre los conceptos de la lógica de programación, los tipos de datos, cómo manejar las variables y la memoria, python es un lenguaje muy dinámico por lo que muchas de estas nociones 
 básicas pueden perderse para alguien que está aprendiendo desde 0.
@@ -60,6 +60,35 @@ particular estoy orientado al desarrollo de aplicaciones web y Java me puede ser
 <br>Una vez tienes definido el lenguaje que quieres aprender necesitas las herramientas, el software que necesitas y hacer tu primer programa para verificar que todo funcione bien, debes 
 hacer tu primer Hola mundo.
 
-
+[Índice](#Indice)
 
  
+<a name=Hola_Mundo></a>
+## Hola Mundo
+
+Llega el momento de escribir nuestro primer programa, para ello debemos tener las herramientas que nos lo permiten:
+
+* **Editor de código o IDE:** 
+Podemos programar en cualquier editor de texto, al fin y al cabo el código fuente solo es texto plano con una sintaxis en específica, pero sin un [editor de código](https://kinsta.com/es/blog/mejores-editores-texto/) o un [IDE]() este trabajo puede 
+ser complicado y poco productivo en comparación, ya el usar un IDE o un editor corresponde por parte del programador. Yo en lo particular voy a usar el editor VIM. 
+
+* **Compilador o intérprete:**
+Sea cual sea el caso de nada sirve que podamos escribir código si no podemos transformarlo en software, necesitamos instalar el o los programas que nos lo permitan. En caso de Java hace 
+falta instalar uno de sus entornos de desarrollo para poder ejecutar el código, este puede indentificarse como JDK. 
+
+* **Guía y Documentación:**
+Podemos ya conocer la lógica de programación pero no conocemos la sintaxis del lenguaje, necesitamos buscar material en el cual basarnos, guíarnos y aprender, esta puede venir de la 
+documentación inicial, de blogs y foros de internet, cursos presenciales o a distancia, videos, hoy en día tenemos múltiples posibilidades para conocer y aprender de tecnología.
+
+Una vez recopilado todo nuestro material y herramientas podemos proceder a escribir nuestro primer programa y empezar a entender el lenguaje mismo.
+
+![](img/HelloWorldJava.jpeg)
+
+Hola mundo!, una cadena de texto que símboliza el inicio, que te permite probar por primera vez un lenguaje, probar el funcionamiento, y este es mi primer [programa](code/java/HMundo.java) 
+exitoso en Java. Sinceramente ahora mientras escribo esto aún tengo mucho que aprender sobre la sintaxis de Java, puede llegar a ser un tanto confusa, el lenguaje está basado en el 
+paradigma orientado a objetos, y es observable por involucrar desde el inicio el uso de clases aun cuando solo se use la función principal y no el propio paradigma en sí.
+
+Podemos observar el mismo resultado escrito en [C](code/c/HMundo.c) y en [python](code/python/HMundo.py)
+
+[Índice](#Indice)
+
