@@ -269,7 +269,7 @@ la manera en que dicho código será traducido. En este proceso el código fuent
 **Etapa de Análisis**
 
 * **Análisis léxico:**
- En esta etapa eli traductor reconoce las cadenas de caracteres del código fuente y las convierte en tokens (componentes léxicos) que permitirán un 
+ En esta etapa el traductor reconoce las cadenas de caracteres del código fuente y las convierte en tokens (componentes léxicos) que permitirán un 
 análisis detallado del codigo fuente en la etapa del análisis sintáctico.
 
 ![](img/Analisis-lexico.png)
